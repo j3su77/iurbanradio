@@ -1,0 +1,40 @@
+.container_chat {
+    grid-area: chat;
+    display: flex;
+    height: auto;
+    background: transparent;
+    padding-bottom: 1em;
+    flex-direction: column;
+    align-items: center;
+   
+    z-index: 105;
+    min-height: 100vh;
+  }
+  .container_chat h2 {
+    padding: 1rem 0 0 0 !important;
+  }
+  
+  .chat_iframe {
+    width: 60%;
+    height: 450px;
+    border: 1px solid #000000;
+  }
+  @media screen and (max-width: 740px) {
+    
+    .chat_iframe {
+      width: 95% !important;
+      height: 450px;
+     
+    }
+
+  }
+
+  @media screen and (max-width: 540px) {
+    
+    .chat_iframe {
+      width: 95% !important;
+      height: 450px;
+     
+    }
+
+  }

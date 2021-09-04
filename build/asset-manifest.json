@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0479af3d.chunk.css",
+    "main.js": "/static/js/main.0e8e9db3.chunk.js",
+    "main.js.map": "/static/js/main.0e8e9db3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ff68ec6c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ff68ec6c.js.map",
+    "static/css/2.a1596f27.chunk.css": "/static/css/2.a1596f27.chunk.css",
+    "static/js/2.befd8613.chunk.js": "/static/js/2.befd8613.chunk.js",
+    "static/js/2.befd8613.chunk.js.map": "/static/js/2.befd8613.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.a1596f27.chunk.css.map": "/static/css/2.a1596f27.chunk.css.map",
+    "static/css/main.0479af3d.chunk.css.map": "/static/css/main.0479af3d.chunk.css.map",
+    "static/js/2.befd8613.chunk.js.LICENSE.txt": "/static/js/2.befd8613.chunk.js.LICENSE.txt",
+    "static/media/adelanteking.450c6124.webp": "/static/media/adelanteking.450c6124.webp",
+    "static/media/main.css": "/static/media/backk.3a543e95.jpg",
+    "static/media/kingnando.4985a3bb.webp": "/static/media/kingnando.4985a3bb.webp",
+    "static/media/wwwkingnandoradiotk.d501e184.webp": "/static/media/wwwkingnandoradiotk.d501e184.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff68ec6c.js",
+    "static/css/2.a1596f27.chunk.css",
+    "static/js/2.befd8613.chunk.js",
+    "static/css/main.0479af3d.chunk.css",
+    "static/js/main.0e8e9db3.chunk.js"
+  ]
+}

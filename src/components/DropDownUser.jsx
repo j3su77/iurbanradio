@@ -65,7 +65,7 @@ const Dropdown = () => {
               Nuevo post
             </Link>
             <Link
-              to="/myposts"
+              to="/mispublicaciones"
               className={
                 "text-sm py-3 px-4 font-normal block w-full whitespace-nowrap "
               }

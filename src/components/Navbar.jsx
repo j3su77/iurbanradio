@@ -3,6 +3,9 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { Context } from "../context/Context";
 import DropDownUser from "./DropDownUser";
+
+
+
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const { user } = useContext(Context);

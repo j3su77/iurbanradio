@@ -26,7 +26,7 @@ function App() {
 
             <Route exact path="/write" component={user ? Write : Login} />
 
-            <Route exact path="/myposts" component={user ? UserPosts : Login} />
+            <Route exact path="/mispublicaciones" component={user ? UserPosts : Login} />
 
             <Route exact path="/configuracion" component={user ? Settings : Login} />
 

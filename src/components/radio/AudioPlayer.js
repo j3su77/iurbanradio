@@ -7,7 +7,7 @@ import { RiRadioFill } from "react-icons/ri";
 import Marquee from "react-fast-marquee";
 
 const AudioPlayer = () => {
-  const ZenoUrl = "http://stream.zeno.fm/71r6wh50ng8uv";
+  const ZenoUrl = "http://stream.zeno.fm/9a8ufvubpy8uv";
   const radio = {
     audioSrc: ZenoUrl + "?noCache=" + Math.floor(Math.random() * 1000000),
   };

@@ -4,16 +4,20 @@ import axios from "axios";
 
 import Posts from "../home/Posts";
 
+
 const UserPosts = () => {
   const { user, apiURL } = useContext(Context);
   const [posts, setPosts] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   const username = user.username;
   useEffect(() => {
+    setIsLoading(true);
     const getPosts = async () => {
       try {
         const res = await axios.get(`${apiURL}/posts?user=${username}`);
         setPosts(res.data);
+        setIsLoading(false);
       } catch (error) {
         console.log(error);
       }
@@ -23,9 +27,14 @@ const UserPosts = () => {
   }, [username]);
 
   return (
-   
-    <Posts posts={posts} title={"Mis Publicaciones"} />
-  
+    <>
+      <div className="w-full col-span-full my-5 ">
+        <h1 className="font-bold text-3xl text-center block">
+          Mis publicaciones
+        </h1>
+      </div>
+      <Posts posts={posts} isLoading={isLoading} />)
+    </>
   );
 };
 

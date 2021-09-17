@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md"
 import { FaUser } from "react-icons/fa"
 const Settings = () => {
 
-    const { user, apiURL, apiUrlImg } = useContext(Context)
+    const { user,  apiUrlImg } = useContext(Context)
 
   return (
       <div className="min-h-screen ">

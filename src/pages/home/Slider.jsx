@@ -1,7 +1,7 @@
 import Styles from "./Slider.module.css";
-import image from "../../assets/images/kingnando.webp";
-import image2 from "../../assets/images/adelanteking.webp";
-import image3 from "../../assets/images/wwwkingnandoradiotk.webp";
+import image from "../../assets/images/iurbanSlider.png";
+// import image2 from "../../assets/images/adelanteking.webp";
+// import image3 from "../../assets/images/wwwkingnandoradiotk.webp";
 
 const Slider = () => {
     return (
@@ -17,11 +17,11 @@ const Slider = () => {
           </div>
 
           <div className={Styles.item_slide}>
-            <img src={image2} alt="" />
+            <img src={image} alt="" />
           </div>
 
           <div className={Styles.item_slide}>
-            <img src={image3} alt="" />
+            <img src={image} alt="" />
           </div>
         </div>
         <div className={Styles.bottom_bar}></div>

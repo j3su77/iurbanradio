@@ -1,5 +1,4 @@
 import { useContext, useRef } from "react";
-import { Link } from "react-router-dom";
 import Styles from "./login.module.css";
 import { Context } from "../../context/Context";
 import axios from "axios";
@@ -52,11 +51,7 @@ const Login = () => {
           login
         </button>
       </form>
-      <button className={Styles.loginRegisterButton} type="submit">
-        <Link className="link" to="/register">
-          Register
-        </Link>
-      </button>
+     
     </div>
   );
 };

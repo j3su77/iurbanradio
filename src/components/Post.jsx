@@ -9,9 +9,10 @@ const Post = ({ post }) => {
 
   return (
     <>
-    <div className="">
+    <div>
       <div className="rounded overflow-hidden shadow-lg relative mx-4 box-content ">
         <Link to={`/post/${post._id}`} className="w-full text-start">
+
           <img
             className="w-full h-auto box-content"
             src={ post && post.photo ? apiUrlImg + post.photo
